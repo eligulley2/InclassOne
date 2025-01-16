@@ -194,7 +194,7 @@ class War_Game:
 
     # Tostring for War_Game
     def __str__(self):
-        result = "CURRENT GAME STATUS\n"
+        result = "Game Status is: \n"
         for player in self.players:
             result += "%s\n\n" % player
         return result
