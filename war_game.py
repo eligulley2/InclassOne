@@ -254,7 +254,7 @@ class War_Player:
         result += "Hand: "
         for item in self.hand:
             result += "%s, " % item
-        result += "\nDiscard: "
+        result += "\nDiscarded Cards: "
         for item in self.discard:
             result += "%s, " % item
         return result
