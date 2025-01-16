@@ -249,7 +249,7 @@ class War_Player:
 
 
     def __str__(self):
-        result = "%s\n" % self.myname
+        result = "Name: %s\n" % self.myname
         result += "Wins: %d Losses: %d\n" % (self.record[0], self.record[1])
         result += "Hand: "
         for item in self.hand:
